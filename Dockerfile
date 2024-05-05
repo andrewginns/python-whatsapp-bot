@@ -21,10 +21,10 @@ RUN pip install -r requirements.txt
 COPY . /app
 
 # Make shell script executable
-RUN chmod +x start.sh
+RUN chmod +x /app/start.sh
 
 # Expose flask ports
 EXPOSE 8500
 
 # Run app.py when the container launches
-CMD ["./start.sh"]
+CMD ["/app/start.sh"]
