@@ -9,7 +9,7 @@ import asyncio
 # Load environment variables
 # --------------------------------------------------------------
 
-load_dotenv()
+load_dotenv("stack.env")
 ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
 RECIPIENT_WAID = os.getenv("RECIPIENT_WAID")
 PHONE_NUMBER_ID = os.getenv("PHONE_NUMBER_ID")
