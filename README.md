@@ -100,7 +100,7 @@ Once your app is running successfully on localhost, let's get it on the internet
 6. On the Domains page, click + Create Domain or + New Domain. (here everyone can start with [one free domain](https://ngrok.com/blog-post/free-static-domains-ngrok-users))
 7. Start ngrok by running the following command in a terminal on your local desktop:
 ```
-ngrok http 8000 --domain your-domain.ngrok-free.app
+ngrok http 8500 --domain your-domain.ngrok-free.app
 ```
 8. ngrok will display a URL where your localhost application is exposed to the internet (copy this URL for use with Meta).
 

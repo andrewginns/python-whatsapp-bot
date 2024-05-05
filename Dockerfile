@@ -24,7 +24,7 @@ COPY . /app
 RUN chmod +x start.sh
 
 # Expose flask ports
-EXPOSE 8000
+EXPOSE 8500
 
 # Run app.py when the container launches
 CMD ["./start.sh"]
