@@ -1,0 +1,12 @@
+name: plant-cam
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - stack.env
+    volumes:
+      - .:/app
+      - /media/plant-cam:/plant-cam
